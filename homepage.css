@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url("heading-back.jpg");
+}
+
+nav, footer {
+    
+    flex-shrink: 0;
+}
+
+#topic {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url("main-back.png");
+    background-size: 3000px;
+    justify-content: flex-start;
+   
+    
+}
+
+.descmain {
+    background: url("heading-back.jpg");
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bolder;
+}
+
+
+.desc2 {
+    padding: 20px;
+    list-style: none;
+}
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background: url("heading-back.jpg");
+    height: 30px;
+    font-size: small;
+}
+
+
+.desc1 {
+    padding: 10px;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 10px;
+   
+}
+
+#stickline {
+    position: sticky;
+    top: 0px;
+    background: url("heading-back.jpg");
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 40px;
+}
+
+.stickvid {
+    margin-left: 88%;
+    margin-top: 3px;
+}
+
+.sticktext {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   margin-top: -80px;
+  
+}
+
+.layer {
+    display: flex;
+    background: rgb(187, 185, 185);
+    justify-content: center;
+    font-size: smaller;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+    
+
+}
+footer {
+    
+    display: flex;
+    flex-direction: column;
+   opacity: 0.8;
+}
+
+.maintext {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    
+
+}
+
+.desctext {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold ;
+    
+}
+
+
+
+#ingame {
+    position: relative;
+    background: url("gradient1.jpg");
+    height: 1000px;
+    width: 100%;
+    display: flex;   
+    background-size: 1500px;
+
+}
+
+
+.ingametext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 25%;
+    top: 150px;
+    left: 18%;
+}
+
+.ingametext1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 25%;
+    top: 150px;
+    left: 64%;
+}
+
+.logoig {
+    height: 80%;
+    width:90%;
+}
+
+.logotwitter {
+    height:100%;
+    width: 70%;
+    margin-left: 25%;
+}
+
+.ingameunder {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    
+    top: 310px;
+    left: 20% ;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.ingameunder1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+   
+    top: 310px;
+    left: 68% ;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.endgame {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+   
+    top: 60%;
+    left: 28% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+a{
+    color: black;
+}
+a:hover {
+    color: yellow;
+}
+a:active {
+    color: red;
+}
+
